@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent email = new Intent(Intent.ACTION_SEND);
                 // Put essentials like email address, subject & body text
                 email.putExtra(Intent.EXTRA_EMAIL,
-                        new String[]{"jason_lim@rp.edu.sg"});
+                        new String[]{"jason_lim@rp.edu.sg", "meimei@rp.edu.sg"});
                 email.putExtra(Intent.EXTRA_SUBJECT,
                         "Test Email from C347");
                 email.putExtra(Intent.EXTRA_TEXT,
